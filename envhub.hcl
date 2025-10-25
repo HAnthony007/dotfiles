@@ -1,5 +1,14 @@
 packages = [
-  "hello"
+  "bat",
+  "bun",
+  "deno",
+  "docker",
+  "fish",
+  "fzf",
+  "git",
+  "hello",
+  "tmux",
+  "vim"
 ]
 
 envs {
