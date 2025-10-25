@@ -1,0 +1,86 @@
+@import "macchiato.css";
+
+* {
+    border:        none;
+    border-radius: 7px;
+    font-family:   "Source Sans Pro", "FontAwesome 6 Free";
+    font-size:     15px;
+    box-shadow:    none;
+    text-shadow:   none;
+    transition-duration: 0s;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+window#waybar {
+    color: @text;
+    /* color: rgba(53, 185, 171, 1); */
+    background-color: @base;
+    /* background-color: rgba(23, 63, 79, 0.4); */
+    border-bottom: 2px solid @Teal;
+    /* border-bottom: 2px solid rgba(53, 185, 171, 0.4); */
+}
+
+window#waybar.solo {
+    color: @text;
+    /* color: rgba(53, 185, 171, 1); */
+}
+
+#workspaces {
+    margin-right: 5px;
+}
+
+#custom-scratchpad {
+    margin-right: 5px;
+    padding: 0px 5px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    background: transparent;
+    color: @surface2;
+    /* color: rgba(53, 185, 171, 1); */
+}
+
+#workspaces button.focused {
+    /* color: rgba(115, 186, 37, 1); */
+}
+
+#workspaces button.visible {
+    color: @green;
+    background: @surface0;
+    /* color: rgba(115, 186, 37, 1); */
+}
+
+#workspaces button.urgent {
+    color: @crust;
+    background: @red;
+}
+
+#mode, 
+#battery, 
+#cpu, 
+#memory, 
+#network, 
+#bluetooth,
+#pulseaudio, 
+#idle_inhibitor, 
+#temperature,
+#custom-layout,
+#backlight {
+    margin: 0px 6px 0px 10px;
+/*    min-width: 30px;*/
+}
+
+#clock {
+    margin: 0px 6px 0px 10px;
+}
+
+#bluetooth.disabled,j
+#bluetooth.off {
+    color: @overlay0;
+}
+
+#bluetooth.connected {
+    color: @green;
+}
