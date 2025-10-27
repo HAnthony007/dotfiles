@@ -33,25 +33,6 @@ file ".tmux.conf" {
   source = "dotfiles/.tmux.conf"
 }
 
-file ".tmux/" {
-  source = "dotfiles/.tmux/"
-}
-
-file ".config/fish/" {
-  source = "dotfiles/.config/fish/"
-}
-
-file ".config/nvim/" {
-  source = "dotfiles/.config/nvim/"
-}
-
-file ".config/sway/" {
-  source = "dotfiles/.config/sway/"
-}
-
-file ".config/waybar/" {
-  source = "dotfiles/.config/waybar/"
-}
 
 envs {
   EDITOR = "vim"
