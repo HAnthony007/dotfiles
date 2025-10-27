@@ -9,7 +9,7 @@ packages = [
   "git",
   "hello",
   "tmux",
-  "vim"
+  "vim",
   "zoxide",
 ]
 
